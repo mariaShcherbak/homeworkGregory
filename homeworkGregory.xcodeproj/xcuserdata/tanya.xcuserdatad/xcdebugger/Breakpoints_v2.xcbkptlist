@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "18994826-C407-4A0D-A96D-A0912471CFCF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "homeworkGregory/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55 - 39e1037aa9c3541f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeworkGregory.ViewController.mainSlider.getter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "homeworkGregory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanya/Desktop/homework/swift/homeworkGregory/homeworkGregory/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "126">
+               </Location>
+               <Location
+                  uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55 - 47fded5f64706c13"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeworkGregory.ViewController.mainSlider.setter : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "homeworkGregory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanya/Desktop/homework/swift/homeworkGregory/homeworkGregory/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "164">
+               </Location>
+               <Location
+                  uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55 - 6a083f49bfe803b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeworkGregory.ViewController.mainSlider.modify : Swift.Optional&lt;__C.UIView&gt;"
+                  moduleName = "homeworkGregory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanya/Desktop/homework/swift/homeworkGregory/homeworkGregory/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55 - 8c3e24c09655b2ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeworkGregory.ViewController.mainSlider.modify : Swift.Optional&lt;__C.UIView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "homeworkGregory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanya/Desktop/homework/swift/homeworkGregory/homeworkGregory/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55 - 5962b3a930983105"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeworkGregory.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; homeworkGregory.ViewController"
+                  moduleName = "homeworkGregory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanya/Desktop/homework/swift/homeworkGregory/homeworkGregory/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "984">
+               </Location>
+               <Location
+                  uuid = "A4AB19D2-27A2-4E83-B365-F227319D1D55 - 4affe93447fc601e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "homeworkGregory.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;homeworkGregory.ViewController&gt;"
+                  moduleName = "homeworkGregory"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/tanya/Desktop/homework/swift/homeworkGregory/homeworkGregory/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "925">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
