@@ -8,10 +8,20 @@ import SwiftUI
 import UIKit
 import Foundation
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    var switchRotationOn : Bool!
+    
+    var switchRotationOn = false {
+        didSet {
+            if switchRotationOn == true {
+                print("set rotation 'on")
+            } else {
+                print("set rotation 'off")
+            }
+        }
+    }
+    
+    
     var switchStateDefaults: Bool! // локальная для дефолта
     var sliderValueNumber: Float! // локальная для дефолта
-    var isRotationOn = "" // выводится в принт состояние свича
     var dictCat = ["Cat": UIImage(named: "catImage")] // смена картинки кнопкой Cat
     
     @IBOutlet weak var mainSwitch: UISwitch!
@@ -27,19 +37,17 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     // включение возможности вращать, сохранение положения свича в UserDefaults
     @IBAction func switchRotation(_ sender: UISwitch) { // печатает состояние свича
-        if sender.isOn {
-            isRotationOn = "set rotation 'on"
-            switchRotationOn = true
+        if sender.isOn == true {
+            self.switchRotationOn = true
             switchStateDefaults = true // дефолтная для свича
             UserDefaults.standard.set(self.switchStateDefaults, forKey: "switchStateDefaults")
         }
         else {
-            isRotationOn = "set rotation 'off"
             switchRotationOn = false
           switchStateDefaults = false // дефолтная для свича
        UserDefaults.standard.set(self.switchStateDefaults, forKey: "switchStateDefaults")
         }
-        print(isRotationOn)
+        print(switchRotationOn)
     }
     
     // регулирует прозрачность, сохраняет значение локальной переменной для дефолта слайдера
