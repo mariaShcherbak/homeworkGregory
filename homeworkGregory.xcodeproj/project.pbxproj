@@ -13,6 +13,7 @@
 		2B45E66426B81F1B00E71171 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B45E66226B81F1B00E71171 /* Main.storyboard */; };
 		2B45E66626B81F1E00E71171 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B45E66526B81F1E00E71171 /* Assets.xcassets */; };
 		2B45E66926B81F1E00E71171 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B45E66726B81F1E00E71171 /* LaunchScreen.storyboard */; };
+		6A615DA426C7113C00666953 /* StorageKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A615DA326C7113C00666953 /* StorageKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2B45E66526B81F1E00E71171 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B45E66826B81F1E00E71171 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B45E66A26B81F1E00E71171 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A615DA326C7113C00666953 /* StorageKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2B45E65C26B81F1B00E71171 /* AppDelegate.swift */,
 				2B45E65E26B81F1B00E71171 /* SceneDelegate.swift */,
 				2B45E66026B81F1B00E71171 /* ViewController.swift */,
+				6A615DA326C7113C00666953 /* StorageKeys.swift */,
 				2B45E66226B81F1B00E71171 /* Main.storyboard */,
 				2B45E66526B81F1E00E71171 /* Assets.xcassets */,
 				2B45E66726B81F1E00E71171 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B45E66126B81F1B00E71171 /* ViewController.swift in Sources */,
+				6A615DA426C7113C00666953 /* StorageKeys.swift in Sources */,
 				2B45E65D26B81F1B00E71171 /* AppDelegate.swift in Sources */,
 				2B45E65F26B81F1B00E71171 /* SceneDelegate.swift in Sources */,
 			);
@@ -288,11 +292,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = homeworkGregory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2.homeworkGregory";
+				PRODUCT_BUNDLE_IDENTIFIER = homework.homeworkGregory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,11 +311,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = homeworkGregory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "-2.homeworkGregory";
+				PRODUCT_BUNDLE_IDENTIFIER = homework.homeworkGregory;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

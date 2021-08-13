@@ -10,13 +10,21 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        setDefaultSettingsIfNeeded()
         return true
     }
 
+    private func setDefaultSettingsIfNeeded() {
+        if !UserDefaults.standard.bool(forKey: StorageKeys.isNotFirstAppLaunch) {
+            UserDefaults.standard.setValue(true, forKey: StorageKeys.isNotFirstAppLaunch)
+            
+            UserDefaults.standard.set(100, forKey: StorageKeys.sliderValue)
+            UserDefaults.standard.set(true, forKey: StorageKeys.switchState)
+        }
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
